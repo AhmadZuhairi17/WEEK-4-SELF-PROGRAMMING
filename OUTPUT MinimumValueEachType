@@ -1,0 +1,7 @@
+The minimun value for byte type is -128
+The minimun value for short type is -32768
+The minimun value for int type is -2147483648
+The minimun value for long type is -9000000000000000000
+The minimun value for float type is -3.4E38
+The minimun value for double type is -1.7E308
+ 
