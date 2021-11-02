@@ -1,0 +1,26 @@
+package mySelfProgramming;
+
+import java.util.Scanner;
+
+class ConstantVariables {
+
+	public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	
+	final double WAGE_PER_HOUR = 20.00;
+	final double OVER_TIME = 10.00;
+	int numWorkingDays,numOverTimeDays,hoursPerDays;
+	
+	System.out.println("Enter working days and hours per day : ");
+	numWorkingDays=sc.nextInt();
+	hoursPerDays=sc.nextInt();
+	System.out.println("Enter overtime days : ");
+	numOverTimeDays=sc.nextInt();
+	
+	double salary1=numWorkingDays * hoursPerDays * WAGE_PER_HOUR + OVER_TIME * numOverTimeDays;
+	System.out.println("The total salary is " + salary1);
+	
+	
+	}
+
+}
