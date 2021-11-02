@@ -1,0 +1,25 @@
+package mySelfProgramming;
+
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
+
+class eNotation2 {
+	
+      public static void main(String args[]) {
+    	  
+	  NumberFormat numFormat = new DecimalFormat();
+      int i = Integer.MAX_VALUE;
+      System.out.println(i);
+      numFormat = new DecimalFormat("0.######E0");
+      System.out.println(numFormat.format(i));
+      numFormat = new DecimalFormat("0.#####E0");
+      System.out.println(numFormat.format(i));
+      double val = 0.456789;
+      numFormat = new DecimalFormat("0.#####E0");
+      System.out.println(numFormat.format(val));
+      numFormat = new DecimalFormat("000000E0");
+      System.out.println(numFormat.format(val));
+
+	}
+
+}
