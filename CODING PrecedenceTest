@@ -1,0 +1,21 @@
+package mySelfProgramming;
+
+class PrecedenceTest {
+
+	public static void main(String[] args) {
+	System.out.println("The total of 1 * 2 + 3 *5 / 4 is " + (1 * 2 + 3 * 5 / 4));
+	System.out.println("The total of 1 + 2 / 3 * 5 - 4 is " + (1 + 2 / 3 * 5 - 4));
+	System.out.println("The total of 695 % 20 is " + (695 % 20));
+	System.out.println("The total of 7 + 6 * 5 is " + (7 + 6 * 5));
+	System.out.println("The total of 7 * 6 + 5 is " + (7 * 6 + 5));
+	System.out.println("The total of 248 % 100 / 5 " + (248 % 100 /5));
+	System.out.println("The total of 6 * 3 - 9 / 4 is " + (6 * 3 - 9 / 4));
+	System.out.println("The total of (5 - 7) * 4 is " + ((5 - 7) * 4));
+	System.out.println("The total of 6 + (18 % (17 - 12)) is " + (6 + (18 % (17 - 12))));
+	System.out.println("The total of 65 + 35 - (45 + 9) / 9 * 7 is " + (65 + 35 - (45 + 9) / 9 * 7));
+	System.out.println("The total of (60 - 25) % 7 + 5 - 2 * 2 + 9 + 5 * 5 is " + ((60 - 25) % 7 + 5 - 2 * 2 + 9 + 5 * 5));
+					
+	}
+
+}
+
