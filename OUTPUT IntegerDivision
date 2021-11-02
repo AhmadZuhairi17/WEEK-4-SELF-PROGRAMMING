@@ -1,0 +1,25 @@
+package mySelfProgramming;
+
+class IntegerDivision {
+
+	public static void main(String[] args) {
+	int num1,num2,num5;
+	double num3,num4,num6,cal1,cal2,cal3;
+	num1=35;
+	num2=8;
+	num3=35.0;
+	num4=8.0;
+	num5=35;
+	num6=8.0;
+			
+	cal1=num1/num2;
+	cal2=num3/num4;
+	cal3=num5/num6;
+	
+	
+	System.out.println("The divider for calculation 1 is " + cal1);
+	System.out.println("The divider for calculation 2 is " + cal2);
+	System.out.println("The divider for calculation 3 is " + cal3);
+	}
+
+}
