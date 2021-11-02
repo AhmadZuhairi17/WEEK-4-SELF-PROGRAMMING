@@ -1,0 +1,24 @@
+package mySelfProgramming;
+
+import static java.lang.Math.pow;
+
+class MinimumValueEachType {
+
+	public static void main(String[] args) {
+	byte min1=-128;
+	short min2=-32768;
+	int min3=-2147483648;
+	long min4=(long) (-9*Math.pow(10,18));
+	float min5=(float) (-3.4*Math.pow(10, 38));
+	double min6=-1.7*Math.pow(10,308);
+
+	System.out.println("The minimun value for byte type is " + min1);
+	System.out.println("The minimun value for short type is " + min2);
+	System.out.println("The minimun value for int type is " + min3);
+	System.out.println("The minimun value for long type is " + min4);
+	System.out.println("The minimun value for float type is " + min5);
+	System.out.println("The minimun value for double type is " + min6);
+	
+	}
+
+}
