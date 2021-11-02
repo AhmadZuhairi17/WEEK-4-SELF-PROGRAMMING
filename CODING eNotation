@@ -1,0 +1,24 @@
+package mySelfProgramming;
+
+import java.util.Scanner;
+
+class eNotation {
+
+	public static void main(String[] args) {
+	
+		Scanner in=new Scanner(System.in);
+		double bignum,bignum1,cal1;
+		System.out.println("Please enter your highest double type number in ur mind :");
+		bignum=in.nextDouble();
+		System.out.println("So the highest double type with e notation is :" + bignum);
+		
+		System.out.println("Please enter your second highest double type number in ur mind :");
+		bignum1=in.nextDouble();
+		System.out.println("So the highest double type with e notation is :" + bignum1);
+		
+		cal1=bignum1*bignum;
+		System.out.println("The product of two highest number is " + cal1);
+		
+	}
+
+}
